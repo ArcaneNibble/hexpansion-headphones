@@ -134,7 +134,7 @@
 	(net 13 "/HS_I")
 	(net 14 "Net-(D1-A)")
 	(net 15 "/HEXP_DET")
-	(footprint "tildagon:hexpansion-edge-connector"
+	(footprint "parts:hexpansion-edge-connector"
 		(layer "F.Cu")
 		(uuid "0eebf143-8608-4ed7-9cd3-439e0153372d")
 		(at 98.25 100)
@@ -143,7 +143,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "88f43eed-01cd-4d3c-8b42-c3899b330a73")
+			(uuid "5d48211f-7552-4ebc-ab22-4fe40e8e272d")
 			(effects
 				(font
 					(size 1 1)
@@ -151,12 +151,12 @@
 				)
 			)
 		)
-		(property "Value" "Nodule-Connector"
+		(property "Value" "Hexpansion-Connector"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c83d46e-8fed-40e5-90ff-ac2e26d9ffa9")
+			(uuid "6303d418-fd4f-45d3-879e-fca95c7bf940")
 			(effects
 				(font
 					(size 1 1)
@@ -164,12 +164,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:hexpansion-edge-connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71b68e39-bc2c-4781-a3e5-3c35e5180880")
+			(uuid "3acd92d2-7af6-4edb-87cd-95f2c2d22877")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,7 +181,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2399c9c7-121a-40a8-85d1-226875be9e35")
+			(uuid "e6c57b7c-9cf9-4979-bec3-a6cebd6ffd07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +193,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d5eb097-2126-4153-bfa3-8e68fb3bd4ea")
+			(uuid "40215d3f-cea3-4635-882b-61ef1a96d2d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,7 +204,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6a3b9a9-bf5b-4094-97e6-633135b6456c")
+			(uuid "a3416b9e-58d3-4861-9833-3eca2d403aeb")
 			(effects
 				(font
 					(size 1 1)
@@ -216,7 +216,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a91fb359-7bce-4cfc-bbd9-0750ce608dfe")
+			(uuid "629918be-5ce3-4d14-a3ae-d790f4066a21")
 			(effects
 				(font
 					(size 1 1)
@@ -225,6 +225,7 @@
 			)
 		)
 		(path "/7acb244c-9302-4616-826d-21d1c8515c2d")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -235,7 +236,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8d5d65ce-a928-4e54-86cd-e8c17abe8504")
+			(uuid "cf545163-2137-485a-b5ca-d597c7e00830")
 		)
 		(fp_line
 			(start 6.25 -6)
@@ -245,7 +246,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "dc5a1fa2-6ed6-4a8e-a1f1-20a8e19411a4")
+			(uuid "e206ec2f-5a18-40d6-a3d8-f7b25cce9713")
 		)
 		(fp_line
 			(start 6.25 -4.6)
@@ -255,7 +256,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "20aeef90-8355-4c62-bbeb-52178b990e70")
+			(uuid "145f7916-f4f7-4705-967b-03a8dc463428")
 		)
 		(fp_line
 			(start 6.25 4.6)
@@ -265,7 +266,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b993ad58-8a31-485b-ab12-adfe8fcd44ac")
+			(uuid "5852313e-c843-40fb-a80b-052f2cd19b1c")
 		)
 		(fp_line
 			(start 6.25 6)
@@ -275,7 +276,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e2771e85-bf40-4670-9998-522df10127b8")
+			(uuid "4cfe3de9-8151-42f0-8a1d-b91aa47ca50d")
 		)
 		(fp_arc
 			(start 0 -4.4)
@@ -286,7 +287,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0eff2286-2514-441a-942c-2f48c6014141")
+			(uuid "20617cab-b0f4-460f-a236-f7eac459247a")
 		)
 		(fp_arc
 			(start 0.2 4.6)
@@ -297,7 +298,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "96029931-2fcd-4e45-9929-4b98fae6e641")
+			(uuid "af55c647-890a-4f12-9fad-86b3a5ded316")
 		)
 		(fp_arc
 			(start 6.25 -6)
@@ -308,7 +309,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "89e754c0-61b1-4ffa-a954-45cba1b9c92f")
+			(uuid "1b02d636-7e59-4a4e-ac0e-09430c65f3d4")
 		)
 		(fp_arc
 			(start 6.25 4.6)
@@ -319,7 +320,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e021d59d-63e4-42ac-9e43-f87a58a59e8b")
+			(uuid "351abc68-8a49-4b16-ba37-4ecc1d167d65")
 		)
 		(fp_arc
 			(start 6.95 -5.3)
@@ -330,7 +331,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f1c6b7ff-3981-4cb7-aec0-3605bc52d405")
+			(uuid "359348c9-6d02-4131-9388-075663881194")
 		)
 		(fp_arc
 			(start 6.95 5.3)
@@ -341,7 +342,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "202f09a4-e5c9-4561-817a-84357846d8fa")
+			(uuid "94127251-1210-4984-9006-f7822121409c")
 		)
 		(fp_rect
 			(start 0 -6)
@@ -352,27 +353,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "e24ad8a0-d9c1-403a-baa5-4b5ded3ae251")
-		)
-		(fp_text user "BOTTOM!"
-			(at 5.7 -4.3 90)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "6180851b-ba15-4d29-81d6-72bdc81486db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.25)
-					(bold yes)
-				)
-				(justify left bottom mirror)
-			)
+			(uuid "06e1ca1f-ef5b-48a2-ba7e-4238e06ca475")
 		)
 		(fp_text user "1"
 			(at 5.2 3.05 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "64c98d6f-5cd2-4eef-a7a2-d4398851f8fa")
+			(uuid "75d9986f-60e3-4701-9e44-71f1d7cf1ed6")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -382,11 +369,25 @@
 				(justify left bottom mirror)
 			)
 		)
+		(fp_text user "BOTTOM!"
+			(at 5.7 -4.3 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "7650be96-95bd-4f08-bed6-30caad45678d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.25)
+					(bold yes)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(fp_text user "^ TOP ^"
 			(at 5.8 2.85 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
-			(uuid "482e5746-f0bc-46f1-a7d6-2bc190066af7")
+			(uuid "84a759fc-4bf1-4a31-b923-f18da3411628")
 			(effects
 				(font
 					(size 1 1)
@@ -401,7 +402,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "adc77371-9911-41a6-938b-1e2d6b70cc28")
+			(uuid "cf6925e5-3403-4b82-82e7-b808ca2e235f")
 			(effects
 				(font
 					(size 1 1)
@@ -417,7 +418,7 @@
 			(net 1 "/GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "93276820-3614-4b6d-a9a5-916ce9ebfaa4")
+			(uuid "40cc0654-2e05-442a-b625-4753c1d06ad0")
 		)
 		(pad "2" smd roundrect
 			(at 2.65 2.6)
@@ -427,7 +428,7 @@
 			(net 2 "/LS_A")
 			(pinfunction "LS_A")
 			(pintype "bidirectional")
-			(uuid "ba9f2fd2-91d3-45be-8618-25fc0f030782")
+			(uuid "d3b410fa-83d6-4709-b2c2-a7018eb0665c")
 		)
 		(pad "3" smd roundrect
 			(at 2.65 1.8)
@@ -437,7 +438,7 @@
 			(net 3 "/LS_B")
 			(pinfunction "LS_B")
 			(pintype "bidirectional")
-			(uuid "56aa440e-b346-4203-b5c8-a0e1aa75d471")
+			(uuid "b13d551c-5c16-458f-b9d4-dd82af6ac744")
 		)
 		(pad "4" smd roundrect
 			(at 2.65 1)
@@ -447,7 +448,7 @@
 			(net 4 "/SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "5702a518-bf39-47a1-8c57-f49208e33b24")
+			(uuid "aa02e86d-bff1-4321-99c9-d4a115d95cc3")
 		)
 		(pad "5" smd roundrect
 			(at 2.65 0.2)
@@ -457,7 +458,7 @@
 			(net 5 "/SCL")
 			(pinfunction "SCL")
 			(pintype "output")
-			(uuid "e5573c47-240b-42ab-955d-fecf7fc2c118")
+			(uuid "3ffc4c6c-768a-4874-b40d-50881503f23f")
 		)
 		(pad "6" smd roundrect
 			(at 2.65 -0.6)
@@ -467,7 +468,7 @@
 			(net 15 "/HEXP_DET")
 			(pinfunction "HEXP_DET")
 			(pintype "bidirectional")
-			(uuid "92084d6e-2ca9-4846-9170-b17503d145b4")
+			(uuid "a21b6ac2-8613-40e8-9076-2e47db0b4c62")
 		)
 		(pad "7" smd roundrect
 			(at 2.65 -1.4)
@@ -477,7 +478,7 @@
 			(net 6 "/LS_C")
 			(pinfunction "LS_C")
 			(pintype "bidirectional")
-			(uuid "f0ca05ca-aa66-4422-843f-e0f923147dea")
+			(uuid "f3ca259b-b1a6-482b-b6ef-1d031aca05c8")
 		)
 		(pad "8" smd roundrect
 			(at 2.65 -2.2)
@@ -487,7 +488,7 @@
 			(net 7 "/LS_D")
 			(pinfunction "LS_D")
 			(pintype "bidirectional")
-			(uuid "935150d9-c26d-40af-806b-1c700a76f732")
+			(uuid "0126fb69-4c8c-4179-852a-6aa89d2a5f32")
 		)
 		(pad "9" smd roundrect
 			(at 2.25 -3)
@@ -497,7 +498,7 @@
 			(net 8 "/LS_E")
 			(pinfunction "LS_E")
 			(pintype "bidirectional")
-			(uuid "02a99bf4-77c1-41fa-9377-c7c3b93066ae")
+			(uuid "4815b09e-ea6e-45ba-9ef4-478b74cda2fa")
 		)
 		(pad "10" smd roundrect
 			(at 2.25 -3.8)
@@ -507,7 +508,7 @@
 			(net 1 "/GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "5540516b-7890-4d00-a858-b745721ddfe2")
+			(uuid "93bb38a6-0f53-4f3b-8378-3740760ced36")
 		)
 		(pad "11" smd roundrect
 			(at 2.25 -3.4 180)
@@ -517,7 +518,7 @@
 			(net 1 "/GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a1902b4d-881c-4e5a-bd2e-0c33b3bbc700")
+			(uuid "d04cb42d-688c-46cb-8468-82ed2635e6d4")
 		)
 		(pad "12" smd roundrect
 			(at 2.65 -2.6 180)
@@ -527,7 +528,7 @@
 			(net 9 "/HS_F")
 			(pinfunction "HS_F")
 			(pintype "bidirectional")
-			(uuid "a5a5e33a-3463-42b9-8fda-b0b65a116c35")
+			(uuid "910eef14-6b44-4753-9e50-dcd5043fdd52")
 		)
 		(pad "13" smd roundrect
 			(at 2.65 -1.8 180)
@@ -537,7 +538,7 @@
 			(net 10 "/HS_G")
 			(pinfunction "HS_G")
 			(pintype "bidirectional")
-			(uuid "77bdf3d9-b8ab-4398-ab55-68d97e200066")
+			(uuid "2eb8d3ed-de9b-46e3-880d-8f6ef04ed2f1")
 		)
 		(pad "14" smd roundrect
 			(at 2.25 -1 180)
@@ -547,7 +548,7 @@
 			(net 1 "/GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "9e27e3b1-302f-49ff-a4ab-7ec755bc0799")
+			(uuid "e25a0b19-6b94-4de3-8ec5-e241cc4b38a0")
 		)
 		(pad "15" smd roundrect
 			(at 2.65 -0.2 180)
@@ -557,7 +558,7 @@
 			(net 11 "/3V3")
 			(pinfunction "3V3")
 			(pintype "power_out")
-			(uuid "8610ea6a-1f0f-47cf-986f-ff80bcfd18b6")
+			(uuid "d2fb68b3-e7af-4a5d-a538-8b0b40ec8464")
 		)
 		(pad "16" smd roundrect
 			(at 2.65 0.6 180)
@@ -567,7 +568,7 @@
 			(net 11 "/3V3")
 			(pinfunction "3V3")
 			(pintype "passive")
-			(uuid "20864017-b112-414a-acbe-c87ad09225ef")
+			(uuid "fa2a65c1-0aa6-461d-9411-75fe2ceb3483")
 		)
 		(pad "17" smd roundrect
 			(at 2.25 1.4 180)
@@ -577,7 +578,7 @@
 			(net 1 "/GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ec224874-d5e4-43a2-a666-587b95586ad1")
+			(uuid "32631af1-a9fa-43c0-9334-73b282dc0586")
 		)
 		(pad "18" smd roundrect
 			(at 2.65 2.2 180)
@@ -587,7 +588,7 @@
 			(net 12 "/HS_H")
 			(pinfunction "HS_H")
 			(pintype "bidirectional")
-			(uuid "0789cd63-5264-46a5-b5e8-b1e97ace70d2")
+			(uuid "3bd483f5-7da1-4536-866e-92fbc0602f90")
 		)
 		(pad "19" smd roundrect
 			(at 2.65 3 180)
@@ -597,7 +598,7 @@
 			(net 13 "/HS_I")
 			(pinfunction "HS_I")
 			(pintype "bidirectional")
-			(uuid "cd880463-03a6-41a2-a007-f38d5c6039be")
+			(uuid "75bf0a2d-59e6-46d6-b088-f71b88549480")
 		)
 		(pad "20" smd roundrect
 			(at 2.25 3.8 180)
@@ -607,7 +608,7 @@
 			(net 1 "/GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "2a8e5ca5-64bd-4da4-bc17-3d008252ebaa")
+			(uuid "e2f027b9-5be2-4a5e-995b-71b860807815")
 		)
 	)
 	(footprint "LED_SMD:LED_0805_2012Metric"
@@ -638,7 +639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -662,7 +663,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -674,7 +675,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/43451842-a9df-4675-99cd-052a9e582bf9")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -869,7 +872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -893,7 +896,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -905,7 +908,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/7009656d-6451-4e71-a2f3-6c614c4ec12e")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -1071,7 +1076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1095,7 +1100,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1107,7 +1112,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/86a61882-4b9e-47e0-b704-644cc834a6f8")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1553,7 +1560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1577,7 +1584,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1589,7 +1596,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/dee18c11-0651-4044-b983-56ba67645aff")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr exclude_from_pos_files)
 		(net_tie_pad_groups "1, 2")
@@ -1828,7 +1837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1852,7 +1861,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1864,7 +1873,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0220d737-b86a-4a3b-bf6c-e68947791084")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2037,7 +2048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2061,7 +2072,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2073,7 +2084,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/43383a7e-1c06-47b6-8849-0ab4cb8a431e")
+		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
