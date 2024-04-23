@@ -3768,9 +3768,9 @@
 		)
 		(uuid "6cd572fb-77d1-469a-a380-6c4ca2c161b8")
 	)
-	(text "FIXME THIS FOOTPRINT IS WRONG!"
+	(text "WARN: the Korean Hroparts and ShenZhen ShouHan\ndimensions are *not* equal, **BUT**\nthey appear close enough to use the same footprint"
 		(exclude_from_sim no)
-		(at 212.09 44.196 0)
+		(at 219.456 45.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3818,9 +3818,9 @@
 		)
 		(uuid "befa6f4c-f6c7-4e13-bb44-b4e38426ff9b")
 	)
-	(text "todo verify pin ordering"
+	(text "the pin ordering is logically numbered differently\nin the Korean Hroparts vs ShenZhen ShouHan datasheets\n\nthe ShenZhen ShouHan datasheet says\n\"插头第1-4节分别对应功能是：左 右 接地 唛\"\nwhich does not make mechanical sense at all\n\nwhat is drawn here is consistent with most other examples\nof \"PJ-320D\" parts"
 		(exclude_from_sim no)
-		(at 204.47 19.304 0)
+		(at 240.284 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8650,7 +8650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ES8388"
 			(at 146.9741 80.01 0)
 			(effects
 				(font
